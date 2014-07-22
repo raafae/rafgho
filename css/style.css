@@ -56,6 +56,10 @@ body {
     line-height: 50px;
 }
 
+li {
+    display: inline;
+}
+
 #header #menu .menu-item.two {
     -webkit-transition: all .2s ease-out;
     -moz-transition: all .2s ease-out;
@@ -123,7 +127,7 @@ section.intro p {
     margin-top: -50px;
     line-height: 0.8;
     font-size: 20px;
-    color: WHITE;
+    color: white;
 }
 
 section.about {
@@ -134,12 +138,32 @@ section.about {
     margin-left: 100px;
 }
 
+/* unvisited link */
+a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #fff;
+}
+
+/* mouse over link */
+a:hover {
+    color: #fff;
+}
+
+/* selected link */
+a:active {
+    color: #fff;
+}
+
 .welcome {
     width:40%;
 }
 
-#panel {
+.panel {
     display: inline;
-    width:27%; 
-    float: right;
+   width:27%; margin-top: -300px;float: right; margin-right: 200px;
 }
