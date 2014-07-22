@@ -102,10 +102,11 @@ body {
 }
 
 section.intro {
-    background-color: ##00c7df;
+    background-color: #00aabe;
     padding-top: 160px;
     padding-bottom: 160px;
     position: relative;
+    margin-left: 100px;
 }
 
 section.intro h1 {
@@ -123,4 +124,22 @@ section.intro p {
     line-height: 0.8;
     font-size: 20px;
     color: WHITE;
+}
+
+section.about {
+    background-color: #00aabe;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    position: relative;
+    margin-left: 100px;
+}
+
+.welcome {
+    width:40%;
+}
+
+#panel {
+    display: inline;
+    width:27%; 
+    float: right;
 }
