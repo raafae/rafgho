@@ -1,5 +1,6 @@
 body {
 	background-color: #00aabe;
+    margin-left: -80px;
 }
 
 * {
@@ -115,7 +116,7 @@ section.intro {
 
 section.intro h1 {
 	padding-left: 45px;
-    margin-top: 0px;
+    margin-top: 2px;
     line-height: 0.8;    
     font-family: 'Muli', sans-serif;
     font-size: 72px;
@@ -123,10 +124,10 @@ section.intro h1 {
 }
 
 section.intro p {
-	padding-left: 45px;
+	padding-left: 49px;
     margin-top: -50px;
     line-height: 0.8;
-    font-size: 20px;
+    font-size: 18px;
     color: white;
 }
 
@@ -136,6 +137,14 @@ section.about {
     padding-bottom: 160px;
     position: relative;
     margin-left: 100px;
+}
+section.about h1{
+    text-align: center;
+    margin-top: -300px;
+    line-height: 0.8;    
+    font-family: 'Muli', sans-serif;
+    font-size: 42px;
+    color: white;
 }
 
 /* unvisited link */
@@ -163,7 +172,15 @@ a:active {
     width:40%;
 }
 
-.panel {
-    display: inline;
-   width:27%; margin-top: -300px;float: right; margin-right: 200px;
+section.intro .img {
+float: right;
+display: inline;
+   width:27%; margin-top: -300px; margin-left 200px;
 }
+
+section.about p{
+    text-align: center;
+    color: white;
+    font-family: 'muli light'
+}
+
