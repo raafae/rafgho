@@ -1,10 +1,28 @@
 body {
    width: 100%;
-   /*background-color: rgba(191, 191, 191, 0.9);
-    
-   margin-left: -80px;*/
- 
 }
+
+/* unvisited link */
+a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #fff;
+}
+
+/* mouse over link */
+a:hover {
+    color: #fff;
+}
+
+/* selected link */
+a:active {
+    color: #fff;
+}
+
 
 header {
    position: fixed;
@@ -151,7 +169,6 @@ section.aboutpage {
     padding-top: 160px;
     padding-bottom: 100px;
     padding-left: 100px;
-    position: relative;
     margin-left: -10px;
 }
 
@@ -165,60 +182,10 @@ section.aboutpage h1{
     color: #8C8C8C;
 }
 
-section.prof{
-    background-color: #133331;
-    padding-top: 160px;
-    padding-bottom: 100px;
-    padding-left: 150px;
-    position: relative;
-    margin-left: -10px;
-}
-
-section.prof h1{
-    float: left;
-    margin-top: -110px;
-    margin-left: -100px;
-    font-family: 'Muli', sans-serif;
-    font-size: 42px;
-    font-weight: 400;
-    color: #8C8C8C;
-}
-
-section.prof p {
-    font-family: 'Muli';
-    padding-left: 0px;
-    margin-top: -50px;
-    line-height: 0.8;
-    font-size: 18px;
-    font-weight: 300;
-    color: white;
-}
-
 section.aboutpage img#panel{
     display: inline;
     float: right;
     margin: 0 0 0 400px;
-}
-
-/* unvisited link */
-a:link {
-    color: #fff;
-    text-decoration: none;
-}
-
-/* visited link */
-a:visited {
-    color: #fff;
-}
-
-/* mouse over link */
-a:hover {
-    color: #fff;
-}
-
-/* selected link */
-a:active {
-    color: #fff;
 }
 
 .welcome {
@@ -247,12 +214,17 @@ section.aboutpage p#small{
 }
 
 section.aboutpage p#small.phto{
-    margin-left:125px;
+    margin-left:75px;
 }
 
 section.aboutpage p#small.wbdn{
     margin-left:125px;
 }
+
+section.aboutpage p#small.grph{
+    margin-left:65px;
+}
+
 section.aboutpage a{
     color: #323232;
 }
@@ -262,11 +234,15 @@ section.aboutpage img#webpage{
 }
 
 section.aboutpage img#camera{
-    margin-left: 200px;
+    margin-left: 150px;
+}
+
+section.aboutpage img#graph{
+    margin-left: 150px;
 }
 
 section.aboutpage p.aboutme{
-    text-align: center;
+    text-align: left-justify, center;
     color: #8c8c8c;
     font-family: 'Muli';
     font-weight: 300;
@@ -274,4 +250,57 @@ section.aboutpage p.aboutme{
     line-height: 2;
     margin: -10px 100px 40px 0px;
 }
+
+section.prof{
+    background-color: #34393c;
+    padding-top: 160px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    margin-left: -10px;
+}
+
+section.prof h1{
+    margin-top: -130px;
+    margin-left: -50px;
+    font-family: 'Muli', sans-serif;
+    font-size: 42px;
+    font-weight: 400;
+    color: white;
+}
+
+section.prof p{
+    font-family: 'Muli', sans-serif;
+    margin-top: -40px;
+    margin-left: -47px;
+    line-height: 0.8;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+}
+
+section.prof div.prog{
+  margin-top: 200px;
+}
+
+section.prof div.lang{
+  margin-top: 200px;
+  margin-bottom: -50px
+}
+
+section.prof img{
+  display: inline;
+}
+
+section.prof img#film{
+    display: inline;
+    float: right;
+    margin: -90px 300px 0 400px;
+}
+
+section.prof img#dig{
+  display: inline;
+  float: right;
+  margin: -100px 500px 0 400px;
+}
+
 
