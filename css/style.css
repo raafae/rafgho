@@ -152,15 +152,46 @@ section.aboutpage {
     padding-bottom: 100px;
     padding-left: 100px;
     position: relative;
+    margin-left: -10px;
 }
 
 section.aboutpage h1{
     text-align: center;
     margin-top: -110px;
+    margin-left: -100px;
     font-family: 'Muli', sans-serif;
     font-size: 42px;
     font-weight: 300;
     color: #8C8C8C;
+}
+
+section.prof{
+    background-color: #133331;
+    padding-top: 160px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    position: relative;
+    margin-left: -10px;
+}
+
+section.prof h1{
+    float: left;
+    margin-top: -110px;
+    margin-left: -100px;
+    font-family: 'Muli', sans-serif;
+    font-size: 42px;
+    font-weight: 400;
+    color: #8C8C8C;
+}
+
+section.prof p {
+    font-family: 'Muli';
+    padding-left: 0px;
+    margin-top: -50px;
+    line-height: 0.8;
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
 }
 
 section.aboutpage img#panel{
@@ -243,5 +274,4 @@ section.aboutpage p.aboutme{
     line-height: 2;
     margin: -10px 100px 40px 0px;
 }
-
 
