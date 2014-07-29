@@ -48,7 +48,7 @@ header #header-logo {
 header nav {
    float: left;
    padding-left: 0px;
-   margin-left: 100px;
+   margin-left: 10%;
    padding-right: 200px;
 
 
@@ -140,13 +140,13 @@ background: linear-gradient(to bottom, #d6d6d6 0%,#d6d6d6 0%,#bfbfbf 0%,#e2e2e2 
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6d6d6', endColorstr='#e2e2e2',GradientType=0 ); /* IE6-8 */
    padding-top: 160px;
    padding-bottom: 160px;
-   padding-left: 100px;
+   padding-left: 7%;
    margin: -10px 0px 0px -10px;
    
 }
 
 section.intropage h1 {
-    padding-left: 45px;
+    padding-left: 5%;
     margin-top: 2px;
     line-height: 0.8;    
     font-family: 'Muli', sans-serif;
@@ -156,7 +156,7 @@ section.intropage h1 {
 
 section.intropage p {
     font-family: 'Muli';
-    padding-left: 49px;
+    padding-left: 5%;
     margin-top: -50px;
     line-height: 0.8;
     font-size: 18px;
@@ -168,41 +168,43 @@ section.aboutpage {
     background-color: #f6f6f6;
     padding-top: 160px;
     padding-bottom: 100px;
-    padding-left: 100px;
-    margin-left: -10px;
+    padding-left: 10%;
+    margin-left: -1%;
 }
 
 section.aboutpage h1{
     text-align: center;
     margin-top: -110px;
-    margin-left: -100px;
+    margin-left: -10%;
     font-family: 'Muli', sans-serif;
     font-size: 42px;
     font-weight: 300;
     color: #8C8C8C;
 }
-
+/*
 section.aboutpage img#panel{
     display: inline;
     float: right;
     margin: 0 0 0 400px;
-}
+}*/
 
 .welcome {
     width:40%;
+    padding-left: 5%;
 }
 #panel {
     display: inline;
-    margin-left: 650px;
+    margin-left: 60%;
     height: 30%;
     margin-top: -300px;
     margin-bottom: -50px;
+    max-width: 100%;
 }
 
 section.intro .img {
 float: right;
 display: inline;
-   width:27%; margin-top: -300px; margin-left 200px;
+   width:27%; margin-top: -300px; margin-left: 200px;
 }
 
 section.aboutpage p#small{
@@ -214,15 +216,15 @@ section.aboutpage p#small{
 }
 
 section.aboutpage p#small.phto{
-    margin-left:75px;
+    margin-left:7.5%;
 }
 
 section.aboutpage p#small.wbdn{
-    margin-left:125px;
+    margin-left:10.2%;
 }
 
 section.aboutpage p#small.grph{
-    margin-left:65px;
+    margin-left:6.5%;
 }
 
 section.aboutpage a{
@@ -230,15 +232,15 @@ section.aboutpage a{
 }
 
 section.aboutpage img#webpage{
-    margin-left: 150px;
+    margin-left: 10.5%;
 }
 
 section.aboutpage img#camera{
-    margin-left: 150px;
+    margin-left: 16.5%;
 }
 
 section.aboutpage img#graph{
-    margin-left: 150px;
+    margin-left: 14.5%;
 }
 
 section.aboutpage p.aboutme{
@@ -248,7 +250,9 @@ section.aboutpage p.aboutme{
     font-weight: 300;
     font-size: 19px;
     line-height: 2;
-    margin: -10px 100px 40px 0px;
+    margin: -10px; 
+    margin-right: 10%;
+    margin-bottom: 10%;
 }
 
 section.prof{
