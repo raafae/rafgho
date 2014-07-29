@@ -201,11 +201,11 @@ section.aboutpage img#panel{
     max-width: 100%;
 }
 
-section.intro .img {
+/*section.intro .img {
 float: right;
 display: inline;
    width:27%; margin-top: -300px; margin-left: 200px;
-}
+}*/
 
 section.aboutpage p#small{
     font-family: 'Montserrat', sans-serif;
@@ -215,16 +215,17 @@ section.aboutpage p#small{
     color: #8c8c8c;
 }
 
+
 section.aboutpage p#small.phto{
-    margin-left:7.5%;
+    margin-left:75px;
 }
 
 section.aboutpage p#small.wbdn{
-    margin-left:10.2%;
+    margin-left:125px;
 }
 
 section.aboutpage p#small.grph{
-    margin-left:6.5%;
+    margin-left:65px;
 }
 
 section.aboutpage a{
@@ -232,16 +233,17 @@ section.aboutpage a{
 }
 
 section.aboutpage img#webpage{
-    margin-left: 10.5%;
+    margin-left: 150px;
 }
 
 section.aboutpage img#camera{
-    margin-left: 16.5%;
+    margin-left: 150px;
 }
 
 section.aboutpage img#graph{
-    margin-left: 14.5%;
+    margin-left: 150px;
 }
+
 
 section.aboutpage p.aboutme{
     text-align: left-justify, center;
