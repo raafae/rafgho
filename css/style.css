@@ -147,6 +147,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6d6d6', end
 
 section.intropage h1 {
     padding-left: 5%;
+    margin-right: 3%;
     margin-top: 2px;
     line-height: 0.8;    
     font-family: 'Muli', sans-serif;
@@ -157,6 +158,7 @@ section.intropage h1 {
 section.intropage p {
     font-family: 'Muli';
     padding-left: 5%;
+    padding-right: 5%;
     margin-top: -50px;
     line-height: 0.8;
     font-size: 18px;
@@ -164,6 +166,9 @@ section.intropage p {
     color: white;
 }
 
+#welcome{
+  margin-right: 5%;
+}
 section.aboutpage {
     background-color: #f6f6f6;
     padding-top: 160px;
@@ -192,9 +197,9 @@ section.aboutpage img#panel{
   #welcome{
     display: none;
   }
-section.intropage{
+  section.intropage{
    background: url(../img/bg.jpg) no-repeat;
-   opacity: 0.4;
+   opacity: 0.3;
 }
 }
 
@@ -212,6 +217,16 @@ section.intropage{
   #panel{
     display: none;
   }
+    section.intropage{
+   background: url(../img/bg2.jpg) no-repeat;
+   opacity: 0.3;
+ }
+   section.intropage h1{
+    text-shadow: 0px 0px 9px rgba(0, 0, 0, 2);
+   }
+   section.intropage p{
+    text-shadow: 0px 0px 9px rgba(0, 0, 0, 2);
+   }
 }
 
 /*section.intro .img {
@@ -259,10 +274,14 @@ section.aboutpage img#graph{
     max-width: 100%;
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 960px){
 
 div.examp{
   display: none;
+}
+
+section.aboutpage{
+  margin-bottom: -15%;
 }
 }
 
