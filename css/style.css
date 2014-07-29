@@ -48,7 +48,7 @@ header #header-logo {
 header nav {
    float: left;
    padding-left: 0px;
-   margin-left: 10%;
+   margin-left: 7%;
    padding-right: 200px;
 
 
@@ -188,10 +188,17 @@ section.aboutpage img#panel{
     margin: 0 0 0 400px;
 }*/
 
-.welcome {
-    width:40%;
-    padding-left: 5%;
+@media only screen and (max-width: 480px){
+  #welcome{
+    display: none;
+  }
+section.intropage{
+   background: url(../img/bg.jpg) no-repeat;
+   opacity: 0.4;
 }
+}
+
+
 #panel {
     display: inline;
     margin-left: 60%;
@@ -199,6 +206,12 @@ section.aboutpage img#panel{
     margin-top: -300px;
     margin-bottom: -50px;
     max-width: 100%;
+}
+
+@media only screen and (max-width: 800px){
+  #panel{
+    display: none;
+  }
 }
 
 /*section.intro .img {
@@ -214,7 +227,6 @@ section.aboutpage p#small{
     text-align: left;
     color: #8c8c8c;
 }
-
 
 section.aboutpage p#small.phto{
     margin-left:75px;
@@ -234,16 +246,25 @@ section.aboutpage a{
 
 section.aboutpage img#webpage{
     margin-left: 150px;
+    max-width: 100%;
 }
 
 section.aboutpage img#camera{
     margin-left: 150px;
+    max-width: 100%;
 }
 
 section.aboutpage img#graph{
     margin-left: 150px;
+    max-width: 100%;
 }
 
+@media only screen and (max-width: 480px){
+
+div.examp{
+  display: none;
+}
+}
 
 section.aboutpage p.aboutme{
     text-align: left-justify, center;
