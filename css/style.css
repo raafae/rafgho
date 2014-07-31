@@ -167,7 +167,7 @@ section.intropage p {
 }
 
 #welcome{
-  margin-right: 5%;
+  margin-right: -10%;
 }
 section.aboutpage {
     background-color: #f6f6f6;
@@ -186,12 +186,6 @@ section.aboutpage h1{
     font-weight: 300;
     color: #8C8C8C;
 }
-/*
-section.aboutpage img#panel{
-    display: inline;
-    float: right;
-    margin: 0 0 0 400px;
-}*/
 
 @media only screen and (max-width: 480px){
   #welcome{
@@ -222,7 +216,7 @@ section.aboutpage img#panel{
    opacity: 0.3;
  }
    section.intropage h1{
-    text-shadow: 0px 0px 9px rgba(0, 0, 0, 2);
+    text-shadow: 0px 0px 9px rgba(0, 0, 0, 1);
    }
    section.intropage p{
     text-shadow: 0px 0px 9px rgba(0, 0, 0, 2);
@@ -243,12 +237,21 @@ section.aboutpage p#small{
     color: #8c8c8c;
 }
 
+@media only screen and (max-width: 480px){
+  section.intropage p{
+    margin-left: -25%;
+  }
+}
+
+div.examp{
+  margin-left: 15%;
+}
 section.aboutpage p#small.phto{
     margin-left:75px;
 }
 
 section.aboutpage p#small.wbdn{
-    margin-left:125px;
+    margin-left:-20px;
 }
 
 section.aboutpage p#small.grph{
@@ -260,7 +263,7 @@ section.aboutpage a{
 }
 
 section.aboutpage img#webpage{
-    margin-left: 150px;
+    margin-left: 0px;
     max-width: 100%;
 }
 
@@ -340,13 +343,75 @@ section.prof img{
 section.prof img#film{
     display: inline;
     float: right;
-    margin: -90px 300px 0 400px;
+    margin: -90px 20% 0 0;
 }
 
 section.prof img#dig{
   display: inline;
   float: right;
-  margin: -100px 500px 0 400px;
+  margin: -100px 40% 0 0;
+  padding-right: 20px;
 }
 
+section.prof img#ps{
+  float: right;
+  margin: -80px 45% 0 0;
+  padding-right: 20px;
+}
 
+section.prof img#ai{
+  float: right;
+  margin: -80px 30% 0 0;
+  padding-right: 20px;
+}
+
+section.prof img#lr{
+  float: right;
+  margin: -80px 15% 0 0;
+  padding-right: 20px;
+}
+
+section.prof p#html{
+  float:right;
+  margin-right: 50%;
+}
+
+section.prof p#css{
+  float:right;
+  margin-right: 40%;
+}
+
+section.prof p#java{
+  float:right;
+  margin-right: 25%;
+}
+
+section.prof p#jq{
+  float: right;
+  margin-right: 13%;
+}
+
+@media only screen and (max-width: 480px){
+  section.prof h1, p{
+    padding-bottom: 20px;
+    text-align: center;
+  }
+  section.prof img{
+    width: 40px;
+  }
+
+  section.prof img#film{
+    margin-top: -10px;
+    margin-right: 70px;
+}
+
+section.prof img#dig{
+  margin-top: -10px;
+}
+
+section.prof .progs{
+  margin-top: 90px;
+  margin-right: 70px;
+}
+
+}
