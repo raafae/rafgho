@@ -126,6 +126,7 @@ section.intropage p {
     font-family: 'Muli';
     padding-left: 5%;
     padding-right: 5%;
+    padding-top: 20px;
     margin-top: -50px;
     line-height: 0.8;
     font-size: 18px;
@@ -133,8 +134,9 @@ section.intropage p {
     color: white;
 }
 
-#welcome{
-  margin-right: -10%;
+#raafae {
+  width: 600px;
+  padding-left: 50px;
 }
 section.aboutpage {
     background-color: #f6f6f6;
@@ -154,6 +156,8 @@ section.aboutpage h1{
     color: #8C8C8C;
 }
 
+
+
 @media only screen and (max-width: 480px){
   #welcome{
     display: none;
@@ -169,7 +173,7 @@ section.aboutpage h1{
     display: inline;
     margin-left: 60%;
     height: 30%;
-    margin-top: -300px;
+    margin-top: -200px;
     margin-bottom: -50px;
     max-width: 100%;
 }
